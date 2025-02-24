@@ -75,5 +75,5 @@ See the wiki for more info.
 
 ##### Usage
 ```
-PS > Publish-SteamWorkshopItem -Username <username or email> -Password <your password to Steam> -ItemDescriptor <VDF descriptor file>
+PS > Publish-SteamWorkshopItem -Username <username or email> [-Password <your password to Steam> [-GuardCode <your Steam Guard code>]] -ItemDescriptor <VDF descriptor file>
 ```
