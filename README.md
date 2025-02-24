@@ -51,7 +51,7 @@ for _Minecraft: Java Edition_. See the wiki for more info.
 
 ##### Usage
 ```
-PS > Build-MinecraftResourcepack [-SourcePath <path to the source>] -Filename <filename of the datapack ZIP file>
+PS > Build-MinecraftResourcepack [-SourcePath <path to the source>] -FileName <filename of the datapack ZIP file>
 ```
 
 #### Start-PythonWebserver
