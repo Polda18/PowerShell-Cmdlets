@@ -72,21 +72,36 @@ Description = 'Provides useful custom utilities'
 FunctionsToExport = @(
     "Start-PythonWebserver",
     "Build-MinecraftJavaPack",
-    "Publish-SteamWorkshopItem"
+    "Publish-SteamWorkshopItem",
+    "Compare-FileHash",
+    "Compare-BulkFileHash",
+    "Compare-BulkHashResults"
 )
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @(
     "Start-PythonWebserver",
     "Build-MinecraftJavaPack",
-    "Publish-SteamWorkshopItem"
+    "Publish-SteamWorkshopItem",
+    "Compare-FileHash",
+    "Compare-BulkFileHash",
+    "Compare-BulkHashResults"
 )
 
 # Variables to export from this module
 VariablesToExport = '*'
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-AliasesToExport = @()
+AliasesToExport = @(
+    "serve",
+    "startwebserver",
+    "buildmcpack",
+    "pwsitem",
+    "pstwsi",
+    "cfhash",
+    "cbhash",
+    "cbhashres"
+)
 
 # DSC resources to export from this module
 # DscResourcesToExport = @()
